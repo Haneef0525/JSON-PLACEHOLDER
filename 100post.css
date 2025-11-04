@@ -5,6 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: white;
 }
 
 
@@ -42,3 +43,44 @@
     font-size: 18px;
     color: #666;
 }
+
+
+    #search-bar {
+        margin-top: 7px;
+      margin-left: 500px;
+      width: 350px;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 25px;
+      border: 2px solid #ccc;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    #search-bar:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    }    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    #navbar{
+        background-color: rgb(98, 170, 209);
+    }
+    button {
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+      
